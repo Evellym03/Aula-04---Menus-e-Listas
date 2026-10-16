@@ -1,0 +1,51 @@
+body{
+    /*  tira a barra de scroll da horizontal*/
+    overflow: hidden;
+}
+
+main{
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   width: 100vw;
+   height: 85dvh;
+   padding: 50px;
+}
+
+
+.hero-img img, .hero-text{
+    width: 50vw;
+}
+
+.text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: spa;
+}
+.hero-img img{
+    width: 600px;
+}
+.text-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.text-main h1{
+  width: 500px;
+  font-size:5rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+
+  &
+  span{
+    background-color: #ffff;
+    color: #222b3c;
+    padding: 10px;
+  }
+
+}
+
+.text-main p{
+    width: 450;
+}
